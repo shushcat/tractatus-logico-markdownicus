@@ -3,7 +3,7 @@ title: Tractatus Logico-Philosophicus
 author: Ludwig Wittgenstein
 ---
 
-# 1 The world is everything that is the case.[1]
+# 1 The world is everything that is the case.^[The decimal figures as numbers of the separate propositions indicate the logical importance of the propositions, the emphasis laid upon them in my exposition. The propositions $n.1$, $n.2$, $n.3$, etc., are comments on proposition No. $n$; the propositions $n.m1$, $n.m2$, etc., are comments on the proposition No. $n.m$; and so on.]
 
 ## 1.1 The world is the totality of facts, not of things.
 
@@ -412,7 +412,7 @@ And in the same way in general the essential in a symbol is that which all symbo
 
 #### 3.344 What signifies in the symbol is what is common to all those symbols by which it can be replaced according to the rules of logical syntax.
 
-##### 3.3441 We can, for example, express what is common to all notations for the truth-functions as follows: It is common to them that they all, for example, can be replaced by the notations of "$\neg p$" ("not $p$") and $p \lor q$ ("$p$ or $q$").
+##### 3.3441 We can, for example, express what is common to all notations for the truth-functions as follows: It is common to them that they all, for example, can be replaced by the notations of "$\not p$" ("not $p$") and $p \lor q$ ("$p$ or $q$").
 
 (Herewith is indicated the way in which a special possible notation can give us general information.)
 
@@ -562,15 +562,15 @@ All these ways of symbolizing are inadequate because they have not the necessary
 
 #### 4.061 If one does not observe that propositions have a sense independent of the facts, one can easily believe that true and false are two relations between signs and things signified with equal rights.
 
-One could, then, for example, say that "$p$" signifies in the true way what "$\neg p$" signifies in the false way, etc.
+One could, then, for example, say that "$p$" signifies in the true way what "$\not p$" signifies in the false way, etc.
 
-#### 4.062 Can we not make ourselves understood by means of false propositions as hitherto with true ones, so long as we know that they are meant to be false? No! For a proposition is true, if what we assert by means of it is the case; and if by "$p$" we mean $\neg p$, and what we mean is the case, then "$p$" in the new conception is true and not false.
+#### 4.062 Can we not make ourselves understood by means of false propositions as hitherto with true ones, so long as we know that they are meant to be false? No! For a proposition is true, if what we assert by means of it is the case; and if by "$p$" we mean $\not p$, and what we mean is the case, then "$p$" in the new conception is true and not false.
 
-##### 4.0621 That, however, the signs "$p$" and "$\neg p$" can say the same thing is important, for it shows that the sign "$\neg$" corresponds to nothing in reality.
+##### 4.0621 That, however, the signs "$p$" and "$\not p$" can say the same thing is important, for it shows that the sign "$\not$" corresponds to nothing in reality.
 
-That negation occurs in a proposition, is no characteristic of its sense ($\neg\neg p = p$).
+That negation occurs in a proposition, is no characteristic of its sense ($\not\not p = p$).
 
-The propositions "$p$" and "$\neg p$" have opposite senses, but to them corresponds one and the same reality.
+The propositions "$p$" and "$\not p$" have opposite senses, but to them corresponds one and the same reality.
 
 #### 4.063 An illustration to explain the concept of truth. A black spot on white paper; the form of the spot can be described by saying of each point of the plane whether it is white or black. To the fact that a point is black corresponds a positive fact; to the fact that a point is white (not black), a negative fact. If I indicate a point of the plane (a truth-value in Frege's terminology), this corresponds to the assumption proposed for judgment, etc. etc.
 
@@ -792,7 +792,7 @@ Expressions like "a=a", or expressions deduced from these are neither elementary
 
 ### 4.27 With regard to the existence of $n$ atomic facts there are
 
-$K_n = $\sum_{v=0}^n \binom{n}{v}$ possibilities.
+$K_n = $\sum_{v=0}^{n} \binom{n}{v}$ possibilities.
 
 It is possible for all combinations of atomic facts to exist, and the others not to exist.
 
@@ -843,7 +843,7 @@ Absence of this mark means disagreement.
 
 The proposition is the expression of its truth-conditions.
 
-(Frege has therefore quite rightly put them at the beginning, as explaining the signs of his logical symbolism. Only Frege's explanation of the truth-concept is false: if "the true" and "the false" were real objects and the arguments in $\neg p$, etc., then the sense of $\neg p$ would by no means be determined by Frege's determination.)
+(Frege has therefore quite rightly put them at the beginning, as explaining the signs of his logical symbolism. Only Frege's explanation of the truth-concept is false: if "the true" and "the false" were real objects and the arguments in $\not p$, etc., then the sense of $\not p$ would by no means be determined by Frege's determination.)
 
 ### 4.44 The sign which arises from the co-ordination of that mark "T" with the truth-possibilities is a propositional sign.
 
@@ -950,7 +950,7 @@ That there is a general form is proved by the fact that there cannot be a propos
 
 ### 5.02 It is natural to confuse the arguments of functions with the indices of names. For I recognize the meaning of the sign containing it from the argument just as much as from the index.
 
-In Russell's "$+c$", for example, "$c$" is an index which indicates that the whole sign is the addition sign for cardinal numbers. But this way of symbolizing depends on arbitrary agreement, and one could choose a simple sign instead of "$+c$": but in "$\neg p$" "$p$" is not an index but an argument; the sense of "$\neg p$" cannot be understood, unless the sense of "$p$" has previously been understood. (In the name Julius Caesar, Julius is an index. The index is always part of a description of the object to whose name we attach it, e.g. The Caesar of the Julian gens.)
+In Russell's "$+c$", for example, "$c$" is an index which indicates that the whole sign is the addition sign for cardinal numbers. But this way of symbolizing depends on arbitrary agreement, and one could choose a simple sign instead of "$+c$": but in "$\not p$" "$p$" is not an index but an argument; the sense of "$\not p$" cannot be understood, unless the sense of "$p$" has previously been understood. (In the name Julius Caesar, Julius is an index. The index is always part of a description of the object to whose name we attach it, e.g. The Caesar of the Julian gens.)
 
 The confusion of argument and index is, if I am not mistaken, at the root of Frege's theory of the meaning of propositions and functions. For Frege the propositions of logic were names and their arguments the indices of these names.
 
@@ -964,21 +964,21 @@ That is the foundation of the theory of probability.
 
 ```
    | (T T T T) (p, q) | Tautology     | (if $p$ then $p$; and if $q$ then $q$) $[p \supset p.q \supset q]$ |
-   | (F T T T) (p, q) | in words:     | Not both $p$ and $q$. $[\neg (p.q)]$                               |
+   | (F T T T) (p, q) | in words:     | Not both $p$ and $q$. $[\not (p.q)]$                               |
    | (T F T T) (p, q) | "    "        | If $q$ then $p$. $[q \supset p]$                                   |
    | (T T F T) (p, q) | "    "        | If $p$ then $q$. $[p \supset q]$                                   |
    | (T T T F) (p, q) | "    "        | $p$ or $q$. $[p \lor q]$                                           |
-   | (F F T T) (p, q) | "    "        | Not $q$. $[\neg q]$                                                |
-   | (F T F T) (p, q) | "    "        | Not $p$. $[\neg p]$                                                |
-   | (F T T F) (p, q) | "    "        | $p$ or $q$, but not both. $[p.\neg q : \lor : q.\neg p]$           |
+   | (F F T T) (p, q) | "    "        | Not $q$. $[\not q]$                                                |
+   | (F T F T) (p, q) | "    "        | Not $p$. $[\not p]$                                                |
+   | (F T T F) (p, q) | "    "        | $p$ or $q$, but not both. $[p.\not q : \lor : q.\not p]$           |
    | (T F F T) (p, q) | "    "        | If $p$, then $q$; and if $q$, then $p$. $[p \equiv q]$             |
    | (T F T F) (p, q) | "    "        | $p$                                                                |
-   | (F F F T) (p, q) | "    "        | Neither $p$ nor $q$. $[\neg p.\neg q or p \vert q]$                |
+   | (F F F T) (p, q) | "    "        | Neither $p$ nor $q$. $[\not p.\not q or p \vert q]$                |
    | (T T F F) (p, q) | "    "        | $q$                                                                |
-   | (F F T F) (p, q) | "    "        | $p$ and not $q$. $[p.\neg q]$                                      |
-   | (F T F F) (p, q) | "    "        | $q$ and not $p$. $[q.\neg p]$                                      |
+   | (F F T F) (p, q) | "    "        | $p$ and not $q$. $[p.\not q]$                                      |
+   | (F T F F) (p, q) | "    "        | $q$ and not $p$. $[q.\not p]$                                      |
    | (T F F F) (p, q) | "    "        | $p$ and $q$. $[p.q]$                                               |
-   | (F F F F) (p, q) | Contradiction | ($p$ and not $p$; and $q$ and not $q$.) $[p.\neg p.q.\neg q]$      |
+   | (F F F F) (p, q) | Contradiction | ($p$ and not $p$; and $q$ and not $q$.) $[p.\not p.q.\not q]$      |
 ```
 
 Those truth-possibilities of its truth-arguments, which verify the proposition, I shall call its truth-grounds.
@@ -1005,7 +1005,7 @@ Every proposition which contradicts another, denies it.
 
 #### 5.131 If the truth of one proposition follows from the truth of others, this expresses itself in relations in which the forms of these propositions stand to one another, and we do not need to put them in these relations first by connecting them with one another in a proposition; for these relations are internal, and exist as soon as, and by the very fact that, the propositions exist.
 
-##### 5.1311 When we conclude from $p \lor q$ and $\neg p$ to $q$ the relation between the forms of the propositions "$p \lor q$" and "$\neg p$" is here concealed by the method of symbolizing. But if we write, e.g. instead of "$p \lor q$" "$p|q.|.p|q$" and instead of "$\neg p$" "$p|p$" ($p|q$=neither $p$ nor $q$), then the inner connexion becomes obvious.
+##### 5.1311 When we conclude from $p \lor q$ and $\not p$ to $q$ the relation between the forms of the propositions "$p \lor q$" and "$\not p$" is here concealed by the method of symbolizing. But if we write, e.g. instead of "$p \lor q$" "$p|q.|.p|q$" and instead of "$\not p$" "$p|p$" ($p|q$=neither $p$ nor $q$), then the inner connexion becomes obvious.
 
 (The fact that we can infer $fa$ from $(x).fx$ shows that generality is present also in the symbol "$(x).fx$".
 
@@ -1135,7 +1135,7 @@ In a similar sense I speak of the successive application of several operations t
 
 #### 5.253 One operation can reverse the effect of another. Operations can cancel one another.
 
-#### 5.254 Operations can vanish (e.g. denial in "$\neg\neg p$". $\neg\neg p = p$).
+#### 5.254 Operations can vanish (e.g. denial in "$\not\not p$". $\not\not p = p$).
 
 ## 5.3 All propositions are results of truth-operations on the elementary propositions.
 
@@ -1159,27 +1159,27 @@ And it is easy to see that the propositional sign in No. 4.442 expresses one tru
 
 The possibility of crosswise definition of the logical "primitive signs" of Frege and Russell shows by itself that these are not primitive signs and that they signify no relations.
 
-And it is obvious that the "$\supset$" which we define by means of "$\neg$" and "$\lor$" is identical with that by which we define "$\lor$" with the help of "$\neg$", and that this "$\lor$" is the same as the first, and so on.
+And it is obvious that the "$\supset$" which we define by means of "$\not$" and "$\lor$" is identical with that by which we define "$\lor$" with the help of "$\not$", and that this "$\lor$" is the same as the first, and so on.
 
-### 5.43 That from a fact $p$ an infinite number of others should follow, namely, $\neg\neg p$, $\neg\neg\neg\neg p$, etc., is indeed hardly to be believed, and it is no less wonderful that the infinite number of propositions of logic (of mathematics) should follow from half a dozen "primitive propositions".
+### 5.43 That from a fact $p$ an infinite number of others should follow, namely, $\not\not p$, $\not\not\not\not p$, etc., is indeed hardly to be believed, and it is no less wonderful that the infinite number of propositions of logic (of mathematics) should follow from half a dozen "primitive propositions".
 
 But the propositions of logic say the same thing. That is, nothing.
 
 ### 5.44 Truth-functions are not material functions.
 
-If e.g. an affirmation can be produced by repeated denial, is the denial---in any sense---contained in the affirmation? Does "$\neg\neg p$" deny $\neg p$, or does it affirm $p$; or both?
+If e.g. an affirmation can be produced by repeated denial, is the denial---in any sense---contained in the affirmation? Does "$\not\not p$" deny $\not p$, or does it affirm $p$; or both?
 
-The proposition "$\neg\neg p$" does not treat of denial as an object, but the possibility of denial is already prejudged in affirmation.
+The proposition "$\not\not p$" does not treat of denial as an object, but the possibility of denial is already prejudged in affirmation.
 
-And if there was an object called "$\neg$", then "$\neg\neg p$" would have to say something other than "$p$". For the one proposition would then treat of $\neg$, the other would not.
+And if there was an object called "$\not$", then "$\not\not p$" would have to say something other than "$p$". For the one proposition would then treat of $\not$, the other would not.
 
-#### 5.441 This disappearance of the apparent logical constants also occurs if "$\neg(\exists x).\neg fx$" says the same as "$(x).fx$", or "$(\exists x).fx.x=a$" the same as "$fa$".
+#### 5.441 This disappearance of the apparent logical constants also occurs if "$\not(\exists x).\not fx$" says the same as "$(x).fx$", or "$(\exists x).fx.x=a$" the same as "$fa$".
 
 #### 5.442 If a proposition is given to us then the results of all truth-operations which have it as their basis are given with it.
 
 ### 5.45 If there are logical primitive signs a correct logic must make clear their position relative to one another and justify their existence. The construction of logic out of its primitive signs must become clear.
 
-#### 5.451 If logic has primitive ideas these must be independent of one another. If a primitive idea is introduced it must be introduced in all contexts in which it occurs at all. One cannot therefore introduce it for one context and then again for another. For example, if denial is introduced, we must understand it in propositions of the form "$\neg p$", just as in propositions like "$\neg(p \lor q)$", "$(\exists x).\neg fx$" and others. We may not first introduce it for one class of cases and then for another, for it would then remain doubtful whether its meaning in the two cases was the same, and there would be no reason to use the same way of symbolizing in the two cases.
+#### 5.451 If logic has primitive ideas these must be independent of one another. If a primitive idea is introduced it must be introduced in all contexts in which it occurs at all. One cannot therefore introduce it for one context and then again for another. For example, if denial is introduced, we must understand it in propositions of the form "$\not p$", just as in propositions like "$\not(p \lor q)$", "$(\exists x).\not fx$" and others. We may not first introduce it for one class of cases and then for another, for it would then remain doubtful whether its meaning in the two cases was the same, and there would be no reason to use the same way of symbolizing in the two cases.
 
 (In short, what Frege ("Grundgesetze der Arithmetik") has said about the introduction of signs by definitions holds, mutatis mutandis, for the introduction of primitive signs also.)
 
@@ -1205,7 +1205,7 @@ Men have always thought that there must be a sphere of questions whose answers--
 
 A sphere in which the proposition, simplex sigillum veri, is valid.
 
-### 5.46 When we have rightly introduced the logical signs, the sense of all their combinations has been already introduced with them: therefore not only "$p \lor q$" but also "$\neg(p \lor \neg q)$", etc. etc. We should then already have introduced the effect of all possible combinations of brackets; and it would then have become clear that the proper general primitive signs are not "$p \lor q$", "$(\exists x).fx$", etc., but the most general form of their combinations.
+### 5.46 When we have rightly introduced the logical signs, the sense of all their combinations has been already introduced with them: therefore not only "$p \lor q$" but also "$\not(p \lor \not q)$", etc. etc. We should then already have introduced the effect of all possible combinations of brackets; and it would then have become clear that the proper general primitive signs are not "$p \lor q$", "$(\exists x).fx$", etc., but the most general form of their combinations.
 
 #### 5.461 The apparently unimportant fact that the apparent relations like $\lor$ and $\supset$ need brackets---unlike real relations---is of great importance.
 
@@ -1281,27 +1281,27 @@ $N(\xi)$ is the negation of all the values of the propositional variable $\xi$.
 
 #### 5.503 As it is obviously easy to express how propositions can be constructed by means of this operation and how propositions are not to be constructed by means of it, this must be capable of exact expression.
 
-### 5.51 If $\xi$ has only one value, then $N(\xi) = \neg p$ (not $p$), if it has two values then $N(\xi) = \neg p.\neg q$ (neither $p$ nor $q$).
+### 5.51 If $\xi$ has only one value, then $N(\xi) = \not p$ (not $p$), if it has two values then $N(\xi) = \not p.\not q$ (neither $p$ nor $q$).
 
 #### 5.511 How can the all-embracing logic which mirrors the world use such special catches and manipulations? Only because all these are connected into an infinitely fine network, to the great mirror.
 
-#### 5.512 "$\neg p$" is true if "$p$" is false. Therefore in the true proposition "$\neg p$" "$p$" is a false proposition. How then can the stroke "$\neg$" bring it into agreement with reality?
+#### 5.512 "$\not p$" is true if "$p$" is false. Therefore in the true proposition "$\not p$" "$p$" is a false proposition. How then can the stroke "$\not$" bring it into agreement with reality?
 
-That which denies in "$\neg p$" is however not "$\neg$", but that which all signs of this notation, which deny p, have in common.
+That which denies in "$\not p$" is however not "$\not$", but that which all signs of this notation, which deny p, have in common.
 
-Hence the common rule according to which "$\neg p$", "$\neg\neg\neg p$", "$\neg p \lor \negp$", "\neg p.\neg p", etc. etc. (to infinity) are constructed. And this which is common to them all mirrors denial.
+Hence the common rule according to which "$\not p$", "$\not\not\not p$", "$\not p \lor \not p$", "$\not p.\not p$", etc. etc. (to infinity) are constructed. And this which is common to them all mirrors denial.
 
 #### 5.513 We could say: What is common to all symbols, which assert both $p$ and $q$, is the proposition "$p.q$". What is common to all symbols, which asserts either $p$ or $q$, is the proposition "$p \lor q$".
 
 And similarly we can say: Two propositions are opposed to one another when they have nothing in common with one another; and every proposition has only one negative, because there is only one proposition which lies altogether outside it.
 
-Thus in Russell's notation also it appears evident that "$q : p \lor \neg p$" says the same thing as "$q$"; that "$p \lor \neg p$" says nothing.
+Thus in Russell's notation also it appears evident that "$q : p \lor \not p$" says the same thing as "$q$"; that "$p \lor \not p$" says nothing.
 
 #### 5.514 If a notation is fixed, there is in it a rule according to which all the propositions denying $p$ are constructed, a rule according to which all the propositions asserting $p$ are constructed, a rule according to which all the propositions asserting $p$ or $q$ are constructed, and so on. These rules are equivalent to the symbols and in them their sense is mirrored.
 
 #### 5.515 It must be recognized in our symbols that what is connected by "$\lor$", ".", etc., must be propositions.
 
-And this is the case, for the symbols "$p$" and "$q$" presuppose "$\lor$", "$\neg$", etc. If the sign "$p$" in "$p \lor q$" does not stand for a complex sign, then by itself it cannot have sense; but then also the signs "$p \lor p$", "$p.p$", etc. which have the same sense as "$p$" have no sense. If, however, "$p \lor p$" has no sense, then also "$p \lor q$" can have no sense.
+And this is the case, for the symbols "$p$" and "$q$" presuppose "$\lor$", "$\not$", etc. If the sign "$p$" in "$p \lor q$" does not stand for a complex sign, then by itself it cannot have sense; but then also the signs "$p \lor p$", "$p.p$", etc. which have the same sense as "$p$" have no sense. If, however, "$p \lor p$" has no sense, then also "$p \lor q$" can have no sense.
 
 ##### 5.5151 Must the sign of the negative proposition be constructed by means of the sign of the positive? Why should one not be able to express the negative proposition by means of a negative fact? (Like: if "$a$" does not stand in a certain relation to "$b$", it could express that $aRb$ is not the case.)
 
@@ -1309,7 +1309,7 @@ But here also the negative proposition is indirectly constructed with the positi
 
 The positive proposition must presuppose the existence of the negative proposition and conversely.
 
-### 5.52 If the values of $\xi$ are the total values of a function $fx$ for all values of $x$, then $N(\xi) = \neg(\exists x).fx$.
+### 5.52 If the values of $\xi$ are the total values of a function $fx$ for all values of $x$, then $N(\xi) = \not(\exists x).fx$.
 
 #### 5.521 I separate the concept all from the truth-function.
 
@@ -1351,15 +1351,15 @@ One could of course say that in fact only $a$ has this relation to $a$, but in o
 
 ##### 5.5303 Roughly speaking: to say of two things that they are identical is nonsense, and to say of one thing that it is identical with itself is to say nothing.
 
-#### 5.531 I write therefore not "$f(a,b).a = b$" but "$f(a,a)$" (or "$f(b,b)$"). And not "$f(a,b).\neg a = b$", but "$f(a,b)$".
+#### 5.531 I write therefore not "$f(a,b).a = b$" but "$f(a,a)$" (or "$f(b,b)$"). And not "$f(a,b).\not a = b$", but "$f(a,b)$".
 
-#### 5.532 And analogously: not "$(\exists x,y).f(x,y). x = y$", but "$(\exists x).f(x,x)$"; and not "$(\exists x,y).f(x,y).\neg x = y$", but "$(\exists x,y).f(x,y)$".
+#### 5.532 And analogously: not "$(\exists x,y).f(x,y). x = y$", but "$(\exists x).f(x,x)$"; and not "$(\exists x,y).f(x,y).\not x = y$", but "$(\exists x,y).f(x,y)$".
 
 (Therefore instead of Russell's "$(\exists x,y).f(x,y)$": "$(\exists x,y).f(x,y).\lor.(\exists x).f(x,x)$".)
 
-##### 5.5321 Instead of "$(x) : fx \supset x = a$" we therefore write e.g. "$(\exists x).fx.\supset.fa:\neg(\exists x,y).fx.fy$".
+##### 5.5321 Instead of "$(x) : fx \supset x = a$" we therefore write e.g. "$(\exists x).fx.\supset.fa:\not(\exists x,y).fx.fy$".
 
-And if the proposition "only one $x$ satisfies $f( )$" reads: "$(\neg x).fx.\supset.fa:\neg(\exists x,y).fx.fy$".
+And if the proposition "only one $x$ satisfies $f( )$" reads: "$(\not x).fx.\supset.fa:\not(\exists x,y).fx.fy$".
 
 #### 5.533 The identity sign is therefore not an essential constituent of logical notation.
 
@@ -1375,7 +1375,7 @@ What the axiom of infinity is meant to say would be expressed in language by the
 
 (It is nonsense to place the hypothesis $p \supset p$ before a proposition in order to ensure that its arguments have the right form, because the hypotheses for a non-proposition as argument becomes not false but meaningless, and because the proposition itself becomes senseless for arguments of the wrong kind, and therefore it survives the wrong arguments no better and no worse than the senseless hypothesis attached for this purpose.)
 
-##### 5.5352 Similarly it was proposed to express "There are no things" by "$\neg(\exists x).x = x$". But even if this were a proposition---would it not be true if indeed "There were things", but these were not identical with themselves?
+##### 5.5352 Similarly it was proposed to express "There are no things" by "$\not(\exists x).x = x$". But even if this were a proposition---would it not be true if indeed "There were things", but these were not identical with themselves?
 
 ### 5.54 In the general propositional form, propositions occur in a proposition only as bases of the truth-operations.
 
@@ -1531,17 +1531,17 @@ This is the most general form of transition from one proposition to another.
 
 ### 6.02 And thus we come to numbers: I define
 
-$x = \Omega^{0}'x$ Def. and
+$x =\Omega^{0}{'}x$ Def. and
 
-$\Omega'\Omega\nu'x = \Omega^{\nu+1}'x$ Def.
+$\Omega{'}\Omega\nu{'}x = \Omega^{\nu+1}{'}x$ Def.
 
-According, then, to these symbolic rules we write the series $x, \Omega'x, \Omega'\Omega'x, \Omega'\Omega'\Omega'x, ...$
+According, then, to these symbolic rules we write the series $x, \Omega{'}x, \Omega{'}\Omega{'}x, \Omega{'}\Omega{'}\Omega{'}x, ...$
 
-as: $\Omega^{0}'x, \Omega^{0 + 1}'x, \Omega^{0 + 1 + 1}'x, \Omega^{0 + 1 + 1 + 1}'x, ...$
+as: $\Omega^{0}{'}x, \Omega^{0 + 1}{'}x, \Omega^{0 + 1 + 1}{'}x, \Omega^{0 + 1 + 1 + 1}{'}x, ...$
 
-Therefore I write in place of "$[x, \xi, \Omega'\xi]$",
+Therefore I write in place of "$[x, \xi, \Omega{'}\xi]$",
 
-"$[\Omega^{0}'x, \Omega^{\nu}'x, \Omega^{\nu + 1}'x]$".
+"$[\Omega^{0}{'}x, \Omega^{\nu}{'}x, \Omega^{\nu + 1}{'}x]$".
 
 And I define:
 
@@ -1585,7 +1585,7 @@ In order that propositions connected together in a definite way may give a tauto
 
 #### 6.120 (empty)
 
-##### 6.1201 That e.g. the propositions "$p$" and "$\neg p$" in the connexion "$\neg(p.\neg p)$" give a tautology shows that they contradict one another. That the propositions "$p \supset q$", "$p$" and "$q$" connected together in the form "$(p \supset q).(p):\supset:(q)$" give a tautology shows that $q$ follows from $p$ and $p \supset q$. That "$(x).fx : \supset : fa$" is a tautology shows that $fa$ follows from $(x).fx$, etc. etc.
+##### 6.1201 That e.g. the propositions "$p$" and "$\not p$" in the connexion "$\not(p.\not p)$" give a tautology shows that they contradict one another. That the propositions "$p \supset q$", "$p$" and "$q$" connected together in the form "$(p \supset q).(p):\supset:(q)$" give a tautology shows that $q$ follows from $p$ and $p \supset q$. That "$(x).fx : \supset : fa$" is a tautology shows that $fa$ follows from $(x).fx$, etc. etc.
 
 ##### 6.1202 It is clear that we could have used for this purpose contradictions instead of tautologies.
 
@@ -1593,11 +1593,11 @@ In order that propositions connected together in a definite way may give a tauto
 
 and the co-ordination of the truth or falsity of the whole proposition with the truth-combinations of the truth-arguments by lines in the following way:
 
-This sign, for example, would therefore present the proposition $p \supset p$. Now I will proceed to inquire whether such a proposition as $\neg(p.\neg p)$ (The Law of Contradiction) is a tautology. The form "$\neg\xi$" is written in our notation
+This sign, for example, would therefore present the proposition $p \supset p$. Now I will proceed to inquire whether such a proposition as $\not(p.\not p)$ (The Law of Contradiction) is a tautology. The form "$\not\xi$" is written in our notation
 
 the form "$\xi.\nu$" thus:---
 
-Hence the proposition $\neg(p.\neg q)$ runs thus:---
+Hence the proposition $\not(p.\not q)$ runs thus:---
 
 If here we put "$p$" instead of "$q$" and examine the combination of the outermost T and F with the innermost, it is seen that the truth of the whole proposition is co-ordinated with all the truth-combinations of its argument, its falsity with none of the truth-combinations.
 
@@ -1711,11 +1711,11 @@ For equations express the substitutability of two expressions, and we proceed fr
 
 #### 6.241 Thus the proof of the proposition $2 \times 2 = 4$ runs:
 
-$(\Omega^{\nu})^(\mu)'x = \Omega^{\nu \times \mu}'x$ Def.
+$(\Omega^{\nu})^(\mu){'}x = \Omega^{\nu \times \mu}{'}x$ Def.
 
-$\Omega^{2 \times 2}'x = (\Omega^{2})^{2}'x = (\Omega^{2})^{1 + 1}'x = \Omega^{2}'\Omega^{2}'x = \Omega^{1 + 1}'\Omega^{1 + 1}'x$
+$\Omega^{2 \times 2}{'}x = (\Omega^{2})^{2}{'}x = (\Omega^{2})^{1 + 1}{'}x = \Omega^{2}{'}\Omega^{2}{'}x = \Omega^{1 + 1}{'}\Omega^{1 + 1}{'}x$
 
-$= (\Omega'\Omega)'(\Omega'\Omega)'x = \Omega'\Omega'\Omega'\Omega'x = \Omega^{1 + 1 + 1 + 1}'x = \Omega^{4}'x
+$= (\Omega{'}\Omega){'}(\Omega{'}\Omega){'}x = \Omega{'}\Omega{'}\Omega{'}\Omega{'}x = \Omega^{1 + 1 + 1 + 1}{'}x = \Omega^{4}{'}x$
 
 ## 6.3 Logical research means the investigation of all regularity. And outside logic all is accident.
 
@@ -1883,7 +1883,3 @@ For doubt can only exist where there is a question; a question only where there 
 He must surmount these propositions; then he sees the world rightly.
 
 # 7 Whereof one cannot speak, thereof one must be silent.
-
-# Footnotes
-
-[1]: The decimal figures as numbers of the separate propositions indicate the logical importance of the propositions, the emphasis laid upon them in my exposition. The propositions $n.1$, $n.2$, $n.3$, etc., are comments on proposition No. $n$; the propositions $n.m1$, $n.m2$, etc., are comments on the proposition No. $n.m$; and so on.
