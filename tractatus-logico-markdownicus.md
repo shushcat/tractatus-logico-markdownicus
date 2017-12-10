@@ -3,7 +3,7 @@ title: Tractatus Logico-Philosophicus
 author: Ludwig Wittgenstein
 ---
 
-# 1 The world is everything that is the case.^[The decimal figures as numbers of the separate propositions indicate the logical importance of the propositions, the emphasis laid upon them in my exposition. The propositions $n.1$, $n.2$, $n.3$, etc., are comments on proposition No. $n$; the propositions $n.m1$, $n.m2$, etc., are comments on the proposition No. $n.m$; and so on.]
+# 1 The world is everything that is the case.^[The decimal figures as numbers of the separate propositions indicate the logical importance of the propositions, the emphasis laid upon them in my exposition. The propositions $n.1$, $n.2$, $n.3$, etc., are comments on proposition No. $n$; the propositions $n.m1$, $n.m2$, etc., are comments on the proposition No. $n.m$; and so on.] {.unnumbered}
 
 ## 1.1 The world is the totality of facts, not of things.
 
@@ -17,7 +17,7 @@ author: Ludwig Wittgenstein
 
 ### 1.21 Any one can either be the case or not be the case, and everything else remain the same.
 
-# 2 What is the case, the fact, is the existence of atomic facts.
+# 2 What is the case, the fact, is the existence of atomic facts. {.unnumbered}
 
 ## 2.0 (empty)
 
@@ -202,7 +202,7 @@ The spatial picture, everything spatial, the coloured, everything coloured, etc.
 
 #### 2.225 There is no picture which is a priori true.
 
-# 3 The logical picture of the facts is the thought.
+# 3 The logical picture of the facts is the thought. {.unnumbered}
 
 ## 3.0 (empty)
 
@@ -432,7 +432,7 @@ And in the same way in general the essential in a symbol is that which all symbo
 
 ## 3.5 The applied, thought, propositional sign, is the thought.
 
-# 4 The thought is the significant proposition.
+# 4 The thought is the significant proposition. {.unnumbered}
 
 ## 4.0 (empty)
 
@@ -937,7 +937,7 @@ That there is a general form is proved by the fact that there cannot be a propos
 
 ### 4.53 The general proposition form is a variable.
 
-# 5 Propositions are truth-functions of elementary propositions.
+# 5 Propositions are truth-functions of elementary propositions. {.unnumbered}
 
 (An elementary proposition is a truth-function of itself.)
 
@@ -1512,7 +1512,7 @@ The I occurs in philosophy through the fact that the "world is my world".
 
 The philosophical I is not the man, not the human body or the human soul of which psychology treats, but the metaphysical subject, the limit---not a part of the world.
 
-# 6 The general form of truth-function is: $[p, \xi, N(\xi)]$.
+# 6 The general form of truth-function is: $[p, \xi, N(\xi)]$. {.unnumbered}
 
 This is the general form of proposition.
 
@@ -1888,4 +1888,4 @@ For doubt can only exist where there is a question; a question only where there 
 
 He must surmount these propositions; then he sees the world rightly.
 
-# 7 Whereof one cannot speak, thereof one must be silent.
+# 7 Whereof one cannot speak, thereof one must be silent. {.unnumbered}
