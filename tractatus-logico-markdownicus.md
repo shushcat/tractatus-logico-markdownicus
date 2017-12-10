@@ -802,30 +802,29 @@ It is possible for all combinations of atomic facts to exist, and the others not
 
 ### 4.31 The truth-possibilities can be presented by schemata of the following kind ("T" means "true", "F" "false". The rows of T's and F's under the row of the elementary propositions mean their truth-possibilities in an easily intelligible symbolism).
 
-```
-    | p | q | r |
-    |---+---+---|
-    | T | T | T |
-    | F | T | T |
-    | T | F | T |
-    | T | T | F |
-    | F | F | T |
-    | F | T | F |
-    | T | F | F |
-    | F | F | F |
+| p | q | r |
+|---+---+---|
+| T | T | T |
+| F | T | T |
+| T | F | T |
+| T | T | F |
+| F | F | T |
+| F | T | F |
+| T | F | F |
+| F | F | F |
 
-    | p | q |
-    |---+---|
-    | T | T |
-    | F | T |
-    | T | F |
-    | F | F |
+| p | q |
+|---+---|
+| T | T |
+| F | T |
+| T | F |
+| F | F |
 
-    | p |
-    |---|
-    | T |
-    | F |
-```
+| p |
+|---|
+| T |
+| F |
+
 
 ## 4.4 A proposition is the expression of agreement and disagreement with the truth-possibilities of the elementary propositions.
 
@@ -853,14 +852,12 @@ Something analogous holds of course for all signs, which express the same as the
 
 #### 4.442 Thus e.g.
 
-```
-     | p | q |   |
-     |---+---+---|
-     | T | T | T |
-     | F | T | T |
-     | T | F |   |
-     | F | F | T |
-```
+| p | q |   |
+|---+---+---|
+| T | T | T |
+| F | T | T |
+| T | F |   |
+| F | F | T |
 
 is a propositional sign.
 
@@ -962,24 +959,22 @@ That is the foundation of the theory of probability.
 
 #### 5.101 The truth-functions of every number of elementary propositions can be written in a schema of the following kind:
 
-```
-   | (T T T T) (p, q) | Tautology     | (if $p$ then $p$; and if $q$ then $q$) $[p \supset p.q \supset q]$ |
-   | (F T T T) (p, q) | in words:     | Not both $p$ and $q$. $[\not (p.q)]$                               |
-   | (T F T T) (p, q) | "    "        | If $q$ then $p$. $[q \supset p]$                                   |
-   | (T T F T) (p, q) | "    "        | If $p$ then $q$. $[p \supset q]$                                   |
-   | (T T T F) (p, q) | "    "        | $p$ or $q$. $[p \lor q]$                                           |
-   | (F F T T) (p, q) | "    "        | Not $q$. $[\not q]$                                                |
-   | (F T F T) (p, q) | "    "        | Not $p$. $[\not p]$                                                |
-   | (F T T F) (p, q) | "    "        | $p$ or $q$, but not both. $[p.\not q : \lor : q.\not p]$           |
-   | (T F F T) (p, q) | "    "        | If $p$, then $q$; and if $q$, then $p$. $[p \equiv q]$             |
-   | (T F T F) (p, q) | "    "        | $p$                                                                |
-   | (F F F T) (p, q) | "    "        | Neither $p$ nor $q$. $[\not p.\not q or p \vert q]$                |
-   | (T T F F) (p, q) | "    "        | $q$                                                                |
-   | (F F T F) (p, q) | "    "        | $p$ and not $q$. $[p.\not q]$                                      |
-   | (F T F F) (p, q) | "    "        | $q$ and not $p$. $[q.\not p]$                                      |
-   | (T F F F) (p, q) | "    "        | $p$ and $q$. $[p.q]$                                               |
-   | (F F F F) (p, q) | Contradiction | ($p$ and not $p$; and $q$ and not $q$.) $[p.\not p.q.\not q]$      |
-```
+| (T T T T) (p, q) | Tautology     | (if $p$ then $p$; and if $q$ then $q$) $[p \supset p.q \supset q]$ |
+| (F T T T) (p, q) | in words:     | Not both $p$ and $q$. $[\not (p.q)]$                               |
+| (T F T T) (p, q) | "    "        | If $q$ then $p$. $[q \supset p]$                                   |
+| (T T F T) (p, q) | "    "        | If $p$ then $q$. $[p \supset q]$                                   |
+| (T T T F) (p, q) | "    "        | $p$ or $q$. $[p \lor q]$                                           |
+| (F F T T) (p, q) | "    "        | Not $q$. $[\not q]$                                                |
+| (F T F T) (p, q) | "    "        | Not $p$. $[\not p]$                                                |
+| (F T T F) (p, q) | "    "        | $p$ or $q$, but not both. $[p.\not q : \lor : q.\not p]$           |
+| (T F F T) (p, q) | "    "        | If $p$, then $q$; and if $q$, then $p$. $[p \equiv q]$             |
+| (T F T F) (p, q) | "    "        | $p$                                                                |
+| (F F F T) (p, q) | "    "        | Neither $p$ nor $q$. $[\not p.\not q or p \vert q]$                |
+| (T T F F) (p, q) | "    "        | $q$                                                                |
+| (F F T F) (p, q) | "    "        | $p$ and not $q$. $[p.\not q]$                                      |
+| (F T F F) (p, q) | "    "        | $q$ and not $p$. $[q.\not p]$                                      |
+| (T F F F) (p, q) | "    "        | $p$ and $q$. $[p.q]$                                               |
+| (F F F F) (p, q) | Contradiction | ($p$ and not $p$; and $q$ and not $q$.) $[p.\not p.q.\not q]$      |
 
 Those truth-possibilities of its truth-arguments, which verify the proposition, I shall call its truth-grounds.
 
