@@ -6,6 +6,8 @@ This is the Ogden translation, with formulas typeset in LaTeX and images from th
 
 Aside from being in Markdown as opposed to Org Mode syntax, this differs from [upstream](https://github.com/hrs/tractatus-logico-org) in that it includes images and a makefile to allow easy generation of a PDF if, for some reason, you don't want to get the nicer-looking version from Project Gutenberg.
 
+Building a PDF with `make pdf` requires [Pandoc](http://pandoc.org/) and LaTeX.
+
 ## Other Resources
 
 - The *Tractatus* as [a tree structure](http://www.tractatuslogico-philosophicus.com/).
