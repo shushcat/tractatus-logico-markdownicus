@@ -1394,6 +1394,8 @@ A composite soul would not be a soul any longer.
 
 This perhaps explains that the figure
 
+![](img/cube.pdf)
+
 can be seen in two ways as a cube; and all similar phenomena. For we really see two different facts.
 
 (If I fix my eyes first on the corners $a$ and only glance at $b$, $a$ appears in front and $b$ behind, and vice versa.)
@@ -1489,6 +1491,8 @@ You say that this case is altogether like that of the eye and the field of sight
 And from nothing in the field of sight can it be concluded that it is seen from an eye.
 
 ##### 5.6331 For the field of sight has not a form like this:
+
+![](img/sight-en.pdf)
 
 Eye ---
 
@@ -1586,13 +1590,23 @@ In order that propositions connected together in a definite way may give a tauto
 
 ##### 6.1203 In order to recognize a tautology as such, we can, in cases in which no sign of generality occurs in the tautology, make use of the following intuitive method: I write instead of "p", "q", "r", etc., "TpF", "TqF", "TrF", etc. The truth-combinations I express by brackets, e.g.:
 
-and the co-ordination of the truth or falsity of the whole proposition with the truth-combinations of the truth-arguments by lines in the following way: ![img
+![](img/brackets01-en.pdf)
+
+and the co-ordination of the truth or falsity of the whole proposition with the truth-combinations of the truth-arguments by lines in the following way:
+
+![](img/brackets02-en.pdf)
 
 This sign, for example, would therefore present the proposition $p \supset p$. Now I will proceed to inquire whether such a proposition as $\not(p.\not p)$ (The Law of Contradiction) is a tautology. The form "$\not\xi$" is written in our notation
 
+![](img/brackets03-en.pdf)
+
 the form "$\xi.\nu$" thus:---
 
+![](img/brackets04-en.pdf)
+
 Hence the proposition $\not(p.\not q)$ runs thus:---
+
+![](img/brackets05-en.pdf)
 
 If here we put "$p$" instead of "$q$" and examine the combination of the outermost T and F with the innermost, it is seen that the truth of the whole proposition is co-ordinated with all the truth-combinations of its argument, its falsity with none of the truth-combinations.
 
@@ -1764,6 +1778,8 @@ It is exactly analogous for space. When, for example, we say that neither of two
 ```
 
 moving them out of this space. The right and left hand are in fact completely congruent. And the fact that they cannot be made to cover one another has nothing to do with it.
+
+![](img/space.pdf)
 
 A right-hand glove could be put on a left hand if it could be turned round in four-dimensional space.
 
