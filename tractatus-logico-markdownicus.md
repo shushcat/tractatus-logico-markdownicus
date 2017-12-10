@@ -1586,7 +1586,7 @@ In order that propositions connected together in a definite way may give a tauto
 
 ##### 6.1203 In order to recognize a tautology as such, we can, in cases in which no sign of generality occurs in the tautology, make use of the following intuitive method: I write instead of "p", "q", "r", etc., "TpF", "TqF", "TrF", etc. The truth-combinations I express by brackets, e.g.:
 
-and the co-ordination of the truth or falsity of the whole proposition with the truth-combinations of the truth-arguments by lines in the following way:
+and the co-ordination of the truth or falsity of the whole proposition with the truth-combinations of the truth-arguments by lines in the following way: ![img
 
 This sign, for example, would therefore present the proposition $p \supset p$. Now I will proceed to inquire whether such a proposition as $\not(p.\not p)$ (The Law of Contradiction) is a tautology. The form "$\not\xi$" is written in our notation
 
