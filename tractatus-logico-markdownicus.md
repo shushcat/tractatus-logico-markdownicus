@@ -1772,11 +1772,6 @@ It is exactly analogous for space. When, for example, we say that neither of two
 
 ###### 6.36111 The Kantian problem of the right and left hand which cannot be made to cover one another already exists in the plane, and even in one-dimensional space; where the two congruent figures a and b cannot be made to cover one another without
 
-```
-      - - - O------------ - - ------------O - - -
-                  a                 b
-```
-
 moving them out of this space. The right and left hand are in fact completely congruent. And the fact that they cannot be made to cover one another has nothing to do with it.
 
 ![](img/space.pdf)
