@@ -1,4 +1,4 @@
-pdf : mindfulness-in-plain-english.md
+pdf : tractatus-logico-markdownicus.md
 	pandoc --chapters \
 	--template=./chapters_a4.tex \
-	-f markdown -o mindfulness-in-plain-english.pdf mindfulness-in-plain-english.md
+	-f markdown -o tractatus-logico-markdownicus.pdf tractatus-logico-markdownicus.md
