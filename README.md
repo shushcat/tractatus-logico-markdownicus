@@ -1,22 +1,13 @@
-## Tractatus Logico-Org
+# Tractatus Logico-Markdownicus
 
-![tractatus](http://harryrschwartz.com/assets/images/posts/tractatus.png "tractatus")
+Wittgenstein's [*Tractatus Logico-Philosophicus*](https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus) is organized as an outline so the ability to collapse and expand sections really helps with figuring out what's going on.
 
-If you've ever thought to yourself, "Golly, I'd sure love to read one of the seminal works of 20th-century analytical philosophy, but I'd have to leave my beloved Emacs!" then you've sure stumbled onto the right repo.
+This is the Ogden translation, with Formulas typeset in LaTeX and images from the Project Gutenberg version of this text.
 
-Wittgenstein's [*Tractatus Logico-Philosophicus*](https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus) is organized as an outline, which makes it very suitable for transcription into org-mode. This particular version features:
+Aside from being in Markdown as opposed to Org Mode syntax, this differs from [upstream](https://github.com/hrs/tractatus-logico-org) in that it includes images and a makefile to allow easy generation of a PDF if, for some reason, you don't want to get the nicer-looking version from Project Gutenberg.
 
-- The original Ogden translation.
-- Formulas in LaTeX.
-- Truth tables as standard org-mode tables.
+## Other Resources
 
-### Caveats:
-
-- The *Tractatus* has been displayed as a [tree structure](http://www.tractatuslogico-philosophicus.com/) before, so this isn't a completely original concept. To my knowledge, however, it hasn't been done in org-mode before.
-- A few passages in the *Tractatus* make use of illustrations; these aren't currently included. =(
-
-An org-mode-friendly version of *Principia Mathematica* is left as an exercise to the reader.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hrs/tractatus-logico-org/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+- The *Tractatus* as [a tree structure](http://www.tractatuslogico-philosophicus.com/).
+- The *Tractatus* as [an Org-Mode file](https://github.com/hrs/tractatus-logico-org).
+- The *Tractatus* [at Project Gutenberg](http://www.gutenberg.org/ebooks/5740) is the source for the images in this version, and is also very nicely typseset indeed.
